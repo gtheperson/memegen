@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Meme Generator</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+	</head>
+
+	<body>
+	
+		<div>
+			
+			<div>
+				<h1>Meme Generator</h1>
+			</div>
+			
+			<div class="inputs">
+				<div>
+					<span>Select image from file: <br><input class="btn" type="file" id="file"/></span>
+				</div>
+				
+				<br>
+				
+				<div>
+					<span>Top Text:    <input type="text" id="topText"></span>
+				</div>
+				
+				<br>
+				
+				<div>
+					<span>Bottom Text: <input type="text" id="bottomText"></span>
+				</div>
+				
+				<div>
+					<button id="saveBtn" class="btn">Save</button>
+				</div>
+			</div>
+			
+			<div>
+				<canvas id="c" width="400" height="400"></canvas>
+			</div>
+			
+		</div>	
+			
+	</body>
+	
+	<script type="text/javascript" src="app.js"></script>
+	
+</html>
